@@ -4,12 +4,7 @@
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_security import UserMixin
 from app import db
-import jwt
-from time import time
-from hashlib import md5
-from flask import current_app
 from flask import url_for
-import json
 import base64
 from datetime import datetime, timedelta
 import os
